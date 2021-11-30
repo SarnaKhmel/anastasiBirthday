@@ -194,6 +194,10 @@ a:hover {
 
 .scroller {
 	padding: 10px 5% 10px 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .js .content:before,
