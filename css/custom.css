@@ -251,6 +251,21 @@ a:hover {
 	text-align: center;
 }
 
+.photo1{
+	display: flex;
+	align-self: center;
+	justify-content: center;
+}
+#photo1 {
+	border-radius: 10px;	
+}
+.photoCol {
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+	justify-content: space-around;
+}
+
 @media screen and (max-width: 800px){
 	.no-js .menu-panel {
 		display: none;
@@ -266,13 +281,4 @@ a:hover {
 	.content {
 		font-size: 75%;
 	}
-}
-
-.photo1{
-	display: flex;
-	align-self: center;
-	justify-content: center;
-}
-#photo1 {
-	border-radius: 10px;	
 }
