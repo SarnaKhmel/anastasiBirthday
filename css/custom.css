@@ -259,18 +259,12 @@ a:hover {
 #photo1 {
 	border-radius: 10px;	
 }
-.photoCol {
-	display: flex;
-	flex-direction: row;
-	align-self: center;
-	justify-content: space-around;
-}
+
 
 @media screen and (max-width: 800px){
 	.no-js .menu-panel {
 		display: none;
 	}
-
 	.no-js .container {
 		padding: 0;
 	}
@@ -281,4 +275,4 @@ a:hover {
 	.content {
 		font-size: 75%;
 	}
-}
+
